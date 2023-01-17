@@ -1,2 +1,525 @@
-# Cart-Car
-\108\111\99\97\108\32\76\105\98\114\97\114\121\32\61\32\108\111\97\100\115\116\114\105\110 \103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114 \97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47 \120\72\101\112\116\99\47\75\97\118\111\45\85\73\45\76\105\98\114\97\114\121\47\109\97 \105\110\47\115\111\117\114\99\101\46\108\117\97\34\41\41\40\41\10\108\111\99\97\108\32 \87\105\110\100\111\119\32\61\32\76\105\98\114\97\114\121\46\67\114\101\97\116\101\76\105 \98\40\34\76\101\110\100\97\32\40\66\101\116\97\41\34\44\32\34\83\101\110\116\105\110 \101\108\34\41\10\108\111\99\97\108\32\84\97\98\32\61\32\87\105\110\100\111\119\58\78 \101\119\84\97\98\40\34\72\111\109\101\34\41\10\108\111\99\97\108\32\83\101\99\116\105 \111\110\32\61\32\84\97\98\58\78\101\119\83\101\99\116\105\111\110\40\34\224\184\167\224\184\178\224\184\163\224\185\140\224\184\155\224\184\161\224\184\181\224\184\165 \224\184\177\224\184\129\224\184\169\224\184\147\224\185\140\34\41\10\83\101\99\116\105\111\110 \58\78\101\119\66\117\116\116\111\110\40\34\84\101\108\101\112\111\114\116\32\87\105\110\34 \44\32\34\76\97\108\97\108\108\97\108\34\44\32\102\117\110\99\116\105\111\110\40\41\10 \32\32\32\32\108\111\99\97\108\32\84\119\101\101\110\83\101\114\118\105\99\101\32\61\32 \103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\84\119\101\101\110\83\101\114 \118\105\99\101\34\41\10\108\111\99\97\108\32\84\119\32\61\32\84\119\101\101\110\83\101 \114\118\105\99\101\58\67\114\101\97\116\101\40\103\97\109\101\46\80\108\97\121\101\114\115 \46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117 \109\97\110\111\105\100\82\111\111\116\80\97\114\116\44\32\84\119\101\101\110\73\110\102\111\46\110\101\119\40\53\44\32\69\110\117\109\ 46\69\97\115\105\110\103\83\116\121\108\101\46\76\105\110\101\97\114\44\32\69\110\117\109\ 46\69\97\115\105\110\103\68\105\114\101\99\116\105\111\110\46\79\117\116\44\48\44\102\97\ 108\115\101\44\48\41\44\32\123\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\ 110\101\119\40\49\54\49\46\54\48\50\55\50\50\44\32\55\53\57\46\56\55\48\51\54\ 49\44\32\45\49\48\49\53\46\52\57\52\50\44\32\48\46\50\56\55\53\49\53\56\52\ 57\44\32\45\49\46\48\55\48\56\53\52\50\101\45\48\55\44\32\48\46\57\53\55\55\ 55\53\56\57\49\44\32\52\46\52\53\56\53\49\51\53\54\101\45\48\56\44\32\49\44\ 32\57\46\56\52\50\50\50\56\51\55\101\45\48\56\44\32\45\48\46\57\53\55\55\55\ 53\56\57\49\44\32\49\46\52\52\48\52\54\48\50\101\45\48\56\44\32\48\46\50\56\ 55\53\49\53\56\52\57\41\125\41\58\80\108\97\121\40\41\10\101\110\100\41\10\119\97\105\116\40\48\46\53\41\10\103\97\109\101\46\80\108\97 \121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101 \114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101 \32\61\32\67\70\114\97\109\101\46\110\101\119\40\49\53\57\46\56\52\50\56\53\44\32 \55\53\57\46\56\55\48\51\54\49\44\32\45\49\48\49\57\46\51\56\48\49\51\44\32 \45\48\46\54\54\48\54\55\48\54\57\56\44\32\45\56\46\52\54\51\52\54\56\49\53 \101\45\48\57\44\32\45\48\46\55\53\48\54\55\53\56\53\55\44\32\45\56\46\48\56 \51\55\56\53\55\51\101\45\48\56\44\32\49\44\32\53\46\57\56\55\49\48\50\55\50 \101\45\48\56\44\32\48\46\55\53\48\54\55\53\56\53\55\44\32\49\46\48\48\50\51 \56\48\54\49\101\45\48\55\44\32\45\48\46\54\54\48\54\55\48\54\57\56\41\10\83 \101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\84\101\108\101\112\111\114\116\32\72\111\109\101\34\44\32\34\109\101\101\108\117\107\ 34\44\32\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\108\111\99\97\108\32\84\ 119\101\101\110\83\101\114\118\105\99\101\32\61\32\103\97\109\101\58\71\101\116\83\101\114\ 118\105\99\101\40\34\84\119\101\101\110\83\101\114\118\105\99\101\34\41\10\108\111\99\97\ 108\32\84\119\32\61\32\84\119\101\101\110\83\101\114\118\105\99\101\58\67\114\101\97\116\ 101\40\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\ 114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\ 97\114\116\44\32\84\119\101\101\110\73\110\102\111\46\110\101\119\40\51\44\32\69\110\117\ 109\46\69\97\115\105\110\103\83\116\121\108\101\46\76\105\110\101\97\114\44\32\69\110\117\ 109\46\69\97\115\105\110\103\68\105\114\101\99\116\105\111\110\46\79\117\116\44\48\44\102\97\108\115\101\44\48\41\44\32\123\67\70\114\97\109\ 101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\50\48\53\46\52\53\54\53\52\51\ 44\32\50\46\57\57\55\50\55\56\54\57\44\32\53\46\51\49\50\51\51\50\54\51\44\ 32\45\48\46\50\57\54\56\56\52\54\50\54\44\32\49\46\49\52\49\56\55\57\49\50\ 101\45\48\56\44\32\45\48\46\57\53\52\57\49\51\51\55\56\44\32\45\55\46\50\50\ 50\54\52\56\55\101\45\48\57\44\32\49\44\32\49\46\52\50\48\51\52\55\49\51\101\ 45\48\56\44\32\48\46\57\53\52\57\49\51\51\55\56\44\32\49\46\49\49\49\51\55\ 57\54\49\101\45\48\56\44\32\45\48\46\50\57\54\56\56\52\54\50\54\41\125\41\58\ 80\108\97\121\40\41\10\119\97\105\116\40\48\46\53\41\10\103\97\109\101\46\80\108\97\ 121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\ 114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\50\50\56\46\ 56\57\49\51\49\50\44\32\57\46\51\51\48\57\55\48\55\54\44\32\45\49\48\46\56\ 53\51\57\50\52\56\44\32\45\48\46\48\53\52\49\50\56\54\53\48\54\44\32\49\46\ 50\50\53\50\48\52\50\101\45\48\56\44\32\48\46\57\57\56\53\51\51\57\54\52\44\ 32\49\46\55\53\56\50\57\54\56\101\45\48\56\44\32\49\44\32\45\49\46\49\51\49\ 54\56\57\48\53\101\45\48\56\44\32\45\48\46\57\57\56\53\51\51\57\54\52\44\32\ 49\46\54\57\52\52\54\50\49\55\101\45\48\56\44\32\45\48\46\48\53\52\49\50\56\ 54\53\48\54\41\10\101\110\100\41\10\107\56\53\51\51\57\54\52\44\32\49\46\55\53\56\50\57\54\56\101\45\48\56\44\32\ 49\44\32\45\49\46\49\51\49\54\56\57\48\53\101\45\48\56\44\32\45\48\46\57\57\ 56\53\51\51\57\54\52\44\32\49\46\54\57\52\52\54\50\49\55\101\45\48\56\44\32\ 45\48\46\48\53\52\49\50\56\54\53\48\54\41\10\101\110\100\41\10\107\56\53\51\51\57\54\52\44\32\49\46\55\53\56\50\57\54\56\101\45\48\56\44\32\ 49\44\32\45\49\46\49\51\49\54\56\57\48\53\101\45\48\56\44\32\45\48\46\57\57\ 56\53\51\51\57\54\52\44\32\49\46\54\57\52\52\54\50\49\55\101\45\48\56\44\32\ 45\48\46\48\53\52\49\50\56\54\53\48\54\41\10\101\110\100\41\10\10
+local blur = Instance.new("BlurEffect", game.Lighting)
+blur.Size = 0
+local ScreenGui = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+ScreenGui.Parent = game.CoreGui
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BackgroundTransparency = 1
+ImageLabel.Position = UDim2.new(0.5, -(303 / 2), 0.5, -(263 / 2))
+ImageLabel.Rotation = 0
+ImageLabel.Size = UDim2.new(0, 303, 0, 263)
+ImageLabel.Image = "rbxassetid://6587457747"
+ImageLabel.ImageTransparency = 1
+
+for i = 1, 50, 2 do
+    blur.Size = i
+    ImageLabel.ImageTransparency = ImageLabel.ImageTransparency - 0.1
+    wait()
+end
+wait(0.1)
+
+for i = 1, 50, 2 do
+    blur.Size = 50 - i
+    ImageLabel.ImageTransparency = ImageLabel.ImageTransparency + 0.1
+    wait()
+end
+blur:Destroy()
+ScreenGui:Destroy()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
+local Config = {
+    WindowName = "Lenda Hub",
+	Color = Color3.fromRGB(255,128,64),
+	Keybind = Enum.KeyCode.RightControl
+}
+repeat wait() until game:IsLoaded() wait()
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+end)
+local OldNameCall = nil
+OldNameCall = hookmetamethod(game, "__namecall", function(...)
+    local Args = {...}
+    local Self = Args[1]
+    if getnamecallmethod()=="FireServer" and tostring(Self) == "Received" or tostring(Self) == "Sent" then
+            return wait(math.huge)
+    end
+    return OldNameCall(...)
+end)
+function ToxmodsisHOT()
+    game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = CFrame.new(-51.1823959, 80.6168747, -536.437805)
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(30, Enum.EasingStyle.Linear)
+    tween =
+        tweenService:Create(
+        game:GetService("Players")["LocalPlayer"].Character:WaitForChild("HumanoidRootPart"),
+        tweenInfo,
+        {CFrame = CFrame.new(-60.5737877, 53.9498825, 8666.35059)}
+    )
+    tween:Play()
+    wait(30)
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0, Enum.EasingStyle.Linear)
+    tween =
+        tweenService:Create(
+        game:GetService("Players")["LocalPlayer"].Character:WaitForChild("HumanoidRootPart"),
+        tweenInfo,
+        {CFrame = CFrame.new(-55.5486526, -360.063782, 9489.0498)}
+    )
+    tween:Play()
+end
+getgenv().Number = 1
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/im-retarded-3"))()
+local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
+
+local Tab1 = Window:CreateTab("Build a Boat")
+local Tab2 = Window:CreateTab("UI Settings")
+
+local Section1 = Tab1:CreateSection("AutoFarms")
+local Section2 = Tab1:CreateSection("Misc")
+local SectionA = Tab1:CreateSection("Teleports")
+local Section3 = Tab2:CreateSection("Menu")
+local Section4 = Tab2:CreateSection("Background")
+
+local Toggle1 = Section1:CreateToggle("AutoFarm", nil, function(State)
+getgenv().Autofarm = State
+game:GetService("RunService").Stepped:connect(
+    function()
+        if getgenv().Autofarm then
+            game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):ChangeState(11)
+        end
+    end
+)
+if getgenv().Autofarm then
+    ToxmodsisHOT()
+end
+
+if not getgenv().Autofarm then
+    game.Players.LocalPlayer.Character.Head:Destroy()
+end
+
+game.Players.LocalPlayer.CharacterAdded:Connect(
+    function()
+        repeat
+            wait()
+        until game.Players.LocalPlayer.Character
+        wait(3)
+        if getgenv().Autofarm then
+            ToxmodsisHOT()
+        end
+    end
+)
+end)
+
+local Toggle1 = Section1:CreateToggle("Water GodMode", nil, function(State)
+getgenv().Water = State 
+game:GetService('RunService').Stepped:connect(function()
+pcall(function()
+if getgenv().Water and game.Players.LocalPlayer.Character:FindFirstChild("WaterDetector")  then
+game.Players.LocalPlayer.Character.WaterDetector:remove()
+end end) end) end)
+
+
+local Toggle1 = Section1:CreateToggle("Auto Common Chests", nil, function(State)
+getgenv().Common = State
+game:GetService('RunService').Stepped:connect(function()
+if getgenv().Common then
+workspace.ItemBoughtFromShop:InvokeServer("Common Chest",getgenv().Number)
+end 
+end)
+end)
+
+local Toggle1 = Section1:CreateToggle("Auto UnCommon Chests", nil, function(State)
+getgenv().UnCommon = State
+game:GetService('RunService').Stepped:connect(function()
+if getgenv().UnCommon then
+workspace.ItemBoughtFromShop:InvokeServer("Uncommon Chest",getgenv().Number)
+end
+end)
+end)
+
+local Toggle1 = Section1:CreateToggle("Auto Rare Chests", nil, function(State)
+getgenv().Rare = State
+game:GetService('RunService').Stepped:connect(function()
+if getgenv().Rare then
+workspace.ItemBoughtFromShop:InvokeServer("Rare Chest",getgenv().Number)
+end
+end)
+end)
+
+local Toggle1 = Section1:CreateToggle("Auto Epic Chests", nil, function(State)
+getgenv().Epic = State
+game:GetService('RunService').Stepped:connect(function()
+if getgenv().Epic then
+workspace.ItemBoughtFromShop:InvokeServer("Epic Chest",getgenv().Number)
+end
+end)
+end)
+
+local Toggle1 = Section1:CreateToggle("Auto Legendary Chests", nil, function(State)
+getgenv().Legendary = State
+game:GetService('RunService').Stepped:connect(function()
+if getgenv().Legendary then
+workspace.ItemBoughtFromShop:InvokeServer("Legendary Chest",getgenv().Number)
+end 
+end)
+end)
+
+local Button1 = Section2:CreateButton("Fox", function()
+workspace.ChangeCharacter:FireServer("FoxCharacter") 
+end)
+local Button1 = Section2:CreateButton("Penguin", function()
+workspace.ChangeCharacter:FireServer("PenguinCharacter")
+end)
+local Button1 = Section2:CreateButton("Chicken", function()
+workspace.ChangeCharacter:FireServer("ChickenCharacter")
+end)
+
+local Button1 = SectionA:CreateButton("Blue Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Really blueZone"].CFrame * CFrame.new(0,5,0)
+end)
+
+local Button1 = SectionA:CreateButton("Black Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").BlackZone.CFrame * CFrame.new(0,5,0)
+end)
+
+local Button1 = SectionA:CreateButton("Purple Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").MagentaZone.CFrame * CFrame.new(0,5,0)
+end)
+
+local Button1 = SectionA:CreateButton("Yellow Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["New YellerZone"].CFrame * CFrame.new(0,5,0)
+end)
+
+local Button1 = SectionA:CreateButton("Green Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").CamoZone.CFrame * CFrame.new(0,5,0)
+end)
+
+local Button1 = SectionA:CreateButton("White Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").WhiteZone.CFrame * CFrame.new(0,5,0)
+end)
+
+local Button1 = SectionA:CreateButton("Void", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =  CFrame.new(math.huge,math.huge,math.huge)
+end)
+
+if syn then
+local TextBox1 = Section2:CreateTextBox("Fps Cap", "Only numbers", true, function(Value)
+    getgenv().Fps = Value
+    pcall(function()
+setfpscap(getgenv().Fps)
+end)
+end)
+end
+local TextBox1 = Section2:CreateTextBox("WalkSpeed", "Only numbers", true, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+end)
+local TextBox1 = Section2:CreateTextBox("JumpPower", "Only numbers", true, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+end)
+local Toggle1 = Section2:CreateToggle("Infinite Jump", nil, function(State)
+Infinite = State
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if Infinite then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end) end)
+
+
+local Toggle1 = Section2:CreateToggle("G Noclip", nil, function(State)
+sex = State
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+
+if key == "g" then
+if sex then
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end end 
+end) end)
+
+local Toggle1 = Section2:CreateToggle("B Fly", nil, function(State)
+sex2 = State
+local Max = 0
+local Players = game.Players
+local LP = Players.LocalPlayer
+local Mouse = LP:GetMouse()
+Mouse.KeyDown:connect(function(k)
+if k:lower() == 'b' then
+Max = Max + 1
+getgenv().Fly = false
+if sex2 then
+local T = LP.Character.UpperTorso
+local S = {
+F = 0,
+B = 0,
+L = 0,
+R = 0
+}
+local S2 = {
+F = 0,
+B = 0,
+L = 0,
+R = 0
+}
+local SPEED = 5
+local function FLY()
+getgenv().Fly = true
+local BodyGyro = Instance.new('BodyGyro', T)
+local BodyVelocity = Instance.new('BodyVelocity', T)
+BodyGyro.P = 9e4
+BodyGyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+BodyGyro.cframe = T.CFrame
+BodyVelocity.velocity = Vector3.new(0, 0.1, 0)
+BodyVelocity.maxForce = Vector3.new(9e9, 9e9, 9e9)
+spawn(function()
+repeat
+wait()
+LP.Character.Humanoid.PlatformStand = false
+if S.L + S.R ~= 0 or S.F + S.B ~= 0 then
+SPEED = 200
+elseif not (S.L + S.R ~= 0 or S.F + S.B ~= 0) and SPEED ~= 0 then
+SPEED = 0
+end
+if (S.L + S.R) ~= 0 or (S.F + S.B) ~= 0 then
+BodyVelocity.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (S.F + S.B)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(S.L + S.R, (S.F + S.B) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+S2 = {
+F = S.F,
+B = S.B,
+L = S.L,
+R = S.R
+}
+elseif (S.L + S.R) == 0 and (S.F + S.B) == 0 and SPEED ~= 0 then
+BodyVelocity.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (S2.F + S2.B)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(S2.L + S2.R, (S2.F + S2.B) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+else
+BodyVelocity.velocity = Vector3.new(0, 0.1, 0)
+end
+BodyGyro.cframe = game.Workspace.CurrentCamera.CoordinateFrame
+until not getgenv().Fly
+S = {
+F = 0,
+B = 0,
+L = 0,
+R = 0
+}
+S2 = {
+F = 0,
+B = 0,
+L = 0,
+R = 0
+}
+SPEED = 0
+BodyGyro:destroy()
+BodyVelocity:destroy()
+LP.Character.Humanoid.PlatformStand = false
+end)
+end
+Mouse.KeyDown:connect(function(k)
+if k:lower() == 'w' then
+S.F = 1
+elseif k:lower() == 's' then
+S.B = -1
+elseif k:lower() == 'a' then
+S.L = -1
+elseif k:lower() == 'd' then
+S.R = 1
+end
+end)
+Mouse.KeyUp:connect(function(k)
+if k:lower() == 'w' then
+S.F = 0
+elseif k:lower() == 's' then
+S.B = 0
+elseif k:lower() == 'a' then
+S.L = 0
+elseif k:lower() == 'd' then
+S.R = 0
+end
+end)
+FLY()
+if Max == 2 then
+getgenv().Fly = false
+Max = 0
+end
+end
+end
+end)
+end)
+local Button1 = Section2:CreateButton("Anti Lag", function()
+for _,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+if v:IsA("BasePart") and not v.Parent:FindFirstChild("Humanoid") then --- i stole this from the actual game LOL >-<
+v.Material = Enum.Material.SmoothPlastic;
+if v:IsA("Texture") then
+v:Destroy();
+end end;		
+end;
+end)
+
+local Button1 = Section2:CreateButton("Teleport to RandomPlayer", function()
+local randomPlayer = game.Players:GetPlayers()
+[math.random(1,#game.Players:GetPlayers())]
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(randomPlayer.Character.Head.Position.X, randomPlayer.Character.Head.Position.Y, randomPlayer.Character.Head.Position.Z)) end)
+local Button1 = Section2:CreateButton("Lag Switch F3", function()
+local a = false
+local b = settings()
+
+game:service'UserInputService'.InputEnded:connect(function(i)
+if i.KeyCode == Enum.KeyCode.F3 then
+a = not a
+b.Network.IncomingReplicationLag = a and 10 or 0
+end
+end) end) 
+local Button1 = Section2:CreateButton("ServerHop", function()
+local PlaceID = game.PlaceId
+local AllIDs = {}
+local foundAnything = ""
+local actualHour = os.date("!*t").hour
+local Deleted = false
+local File = pcall(function()
+    AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
+end)
+if not File then
+    table.insert(AllIDs, actualHour)
+    writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+end
+function TPReturner()
+    local Site;
+    if foundAnything == "" then
+        Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+    else
+        Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+    end
+    local ID = ""
+    if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+        foundAnything = Site.nextPageCursor
+    end
+    local num = 0;
+    for i,v in pairs(Site.data) do
+        local Possible = true
+        ID = tostring(v.id)
+        if tonumber(v.maxPlayers) > tonumber(v.playing) then
+            for _,Existing in pairs(AllIDs) do
+                if num ~= 0 then
+                    if ID == tostring(Existing) then
+                        Possible = false
+                    end
+                else
+                    if tonumber(actualHour) ~= tonumber(Existing) then
+                        local delFile = pcall(function()
+                            delfile("NotSameServers.json")
+                            AllIDs = {}
+                            table.insert(AllIDs, actualHour)
+                        end)
+                    end
+                end
+                num = num + 1
+            end
+            if Possible == true then
+                table.insert(AllIDs, ID)
+                wait()
+                pcall(function()
+                    writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+                    wait()
+                    game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                end)
+                wait(4)
+            end
+        end
+    end
+end
+
+function Teleport()
+    while wait() do
+        pcall(function()
+            TPReturner()
+            if foundAnything ~= "" then
+                TPReturner()
+            end
+        end)
+    end
+end
+
+-- If you'd like to use a script before server hopping (Like a Automatic Chest collector you can put the Teleport() after it collected everything.
+Teleport() 
+end)
+local Button1 = Section2:CreateButton("Rejoin", function()
+game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer) end)
+
+local Toggle3 = Section3:CreateToggle("UI Toggle", nil, function(State)
+	Window:Toggle(State)
+end)
+Toggle3:CreateKeybind(tostring(Config.Keybind):gsub("Enum.KeyCode.", ""), function(Key)
+	Config.Keybind = Enum.KeyCode[Key]
+end)
+Toggle3:SetState(true)
+Section3:CreateLabel("Credits DekuDimz#7960")
+Section3:CreateLabel("Credits AlexR32#3232 Ui")
+Section3:CreateLabel("Credits Hazed")
+local Colorpicker3 = Section3:CreateColorpicker("UI Color", function(Color)
+	Window:ChangeColor(Color)
+end)
+Colorpicker3:UpdateColor(Config.Color)
+-- credits to jan for patterns
+local Dropdown3 = Section4:CreateDropdown("Image")
+local Option7 = Dropdown3:AddOption("Default", function(String)
+	Window:SetBackground("2151741365")
+end)
+local Option8 = Dropdown3:AddOption("Hearts", function(String)
+	Window:SetBackground("6073763717")
+end)
+local Option9 = Dropdown3:AddOption("Abstract", function(String)
+	Window:SetBackground("6073743871")
+end)
+local Option10 = Dropdown3:AddOption("Hexagon", function(String)
+	Window:SetBackground("6073628839")
+end)
+local Option11 = Dropdown3:AddOption("Circles", function(String)
+	Window:SetBackground("6071579801")
+end)
+local Option12 = Dropdown3:AddOption("Lace With Flowers", function(String)
+	Window:SetBackground("6071575925")
+end)
+local Option13 = Dropdown3:AddOption("Floral", function(String)
+	Window:SetBackground("5553946656")
+end)
+Option7:SetOption()
+
+local Colorpicker4 = Section4:CreateColorpicker("Color", function(Color)
+	Window:SetBackgroundColor(Color)
+end)
+Colorpicker4:UpdateColor(Color3.new(1,1,1))
+
+local Slider3 = Section4:CreateSlider("Transparency",0,1,nil,false, function(Value)
+	Window:SetBackgroundTransparency(Value)
+end)
+Slider3:SetValue(0)
+
+local Slider4 = Section4:CreateSlider("Tile Scale",0,1,nil,false, function(Value)
+	Window:SetTileScale(Value)
+end)
+Slider4:SetValue(0.5)
+
+
+
+game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "Warning",
+        Text = "RightControl to toggle"
+    }
+)
+game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "Credis",
+        Text = "CharWar Serverhops Toxic Mods screen thingy and IY"
+    }
+)
