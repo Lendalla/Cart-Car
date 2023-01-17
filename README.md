@@ -1,32 +1,3 @@
-local blur = Instance.new("BlurEffect", game.Lighting)
-blur.Size = 0
-local ScreenGui = Instance.new("ScreenGui")
-local ImageLabel = Instance.new("ImageLabel")
-ScreenGui.Parent = game.CoreGui
-ImageLabel.Parent = ScreenGui
-ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel.BackgroundTransparency = 1
-ImageLabel.Position = UDim2.new(0.5, -(303 / 2), 0.5, -(263 / 2))
-ImageLabel.Rotation = 0
-ImageLabel.Size = UDim2.new(0, 303, 0, 263)
-ImageLabel.Image = "rbxassetid://6587457747"
-ImageLabel.ImageTransparency = 1
-
-for i = 1, 50, 2 do
-    blur.Size = i
-    ImageLabel.ImageTransparency = ImageLabel.ImageTransparency - 0.1
-    wait()
-end
-wait(0.1)
-
-for i = 1, 50, 2 do
-    blur.Size = 50 - i
-    ImageLabel.ImageTransparency = ImageLabel.ImageTransparency + 0.1
-    wait()
-end
-blur:Destroy()
-ScreenGui:Destroy()
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
 local Config = {
     WindowName = "Lenda Hub",
@@ -75,13 +46,13 @@ local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 local Tab1 = Window:CreateTab("Build a Boat")
 local Tab2 = Window:CreateTab("UI Settings")
 
-local Section1 = Tab1:CreateSection("AutoFarms")
-local Section2 = Tab1:CreateSection("Misc")
+local Section1 = Tab1:CreateSection("ออโต้ฟาม")
+local Section2 = Tab1:CreateSection("อื่นๆ")
 local SectionA = Tab1:CreateSection("Teleports")
-local Section3 = Tab2:CreateSection("Menu")
-local Section4 = Tab2:CreateSection("Background")
+local Section3 = Tab2:CreateSection("เมนู")
+local Section4 = Tab2:CreateSection("พื้นหลัง")
 
-local Toggle1 = Section1:CreateToggle("AutoFarm", nil, function(State)
+local Toggle1 = Section1:CreateToggle("ออโต้ฟาม", nil, function(State)
 getgenv().Autofarm = State
 game:GetService("RunService").Stepped:connect(
     function()
@@ -111,7 +82,7 @@ game.Players.LocalPlayer.CharacterAdded:Connect(
 )
 end)
 
-local Toggle1 = Section1:CreateToggle("Water GodMode", nil, function(State)
+local Toggle1 = Section1:CreateToggle("โหมดเทพแห่งน้ำ", nil, function(State)
 getgenv().Water = State 
 game:GetService('RunService').Stepped:connect(function()
 pcall(function()
@@ -120,7 +91,7 @@ game.Players.LocalPlayer.Character.WaterDetector:remove()
 end end) end) end)
 
 
-local Toggle1 = Section1:CreateToggle("Auto Common Chests", nil, function(State)
+local Toggle1 = Section1:CreateToggle("ออโต้สุ่มหีบคอมมอน", nil, function(State)
 getgenv().Common = State
 game:GetService('RunService').Stepped:connect(function()
 if getgenv().Common then
@@ -129,7 +100,7 @@ end
 end)
 end)
 
-local Toggle1 = Section1:CreateToggle("Auto UnCommon Chests", nil, function(State)
+local Toggle1 = Section1:CreateToggle("ออโต้สุ่มหีบอันคอมม่อน", nil, function(State)
 getgenv().UnCommon = State
 game:GetService('RunService').Stepped:connect(function()
 if getgenv().UnCommon then
@@ -138,7 +109,7 @@ end
 end)
 end)
 
-local Toggle1 = Section1:CreateToggle("Auto Rare Chests", nil, function(State)
+local Toggle1 = Section1:CreateToggle("ออโต้สุ่มหีบแรร์", nil, function(State)
 getgenv().Rare = State
 game:GetService('RunService').Stepped:connect(function()
 if getgenv().Rare then
@@ -147,7 +118,7 @@ end
 end)
 end)
 
-local Toggle1 = Section1:CreateToggle("Auto Epic Chests", nil, function(State)
+local Toggle1 = Section1:CreateToggle("ออโต้สุ่มกล่องอีปิก", nil, function(State)
 getgenv().Epic = State
 game:GetService('RunService').Stepped:connect(function()
 if getgenv().Epic then
@@ -156,7 +127,7 @@ end
 end)
 end)
 
-local Toggle1 = Section1:CreateToggle("Auto Legendary Chests", nil, function(State)
+local Toggle1 = Section1:CreateToggle("ออโต้สุ่มกล่องตำนาน", nil, function(State)
 getgenv().Legendary = State
 game:GetService('RunService').Stepped:connect(function()
 if getgenv().Legendary then
@@ -165,13 +136,13 @@ end
 end)
 end)
 
-local Button1 = Section2:CreateButton("Fox", function()
+local Button1 = Section2:CreateButton("หม่จิ้งจอก", function()
 workspace.ChangeCharacter:FireServer("FoxCharacter") 
 end)
-local Button1 = Section2:CreateButton("Penguin", function()
+local Button1 = Section2:CreateButton("เพนกวิ้น", function()
 workspace.ChangeCharacter:FireServer("PenguinCharacter")
 end)
-local Button1 = Section2:CreateButton("Chicken", function()
+local Button1 = Section2:CreateButton("ไก่บายๆ", function()
 workspace.ChangeCharacter:FireServer("ChickenCharacter")
 end)
 
@@ -179,23 +150,23 @@ local Button1 = SectionA:CreateButton("Blue Zone", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Really blueZone"].CFrame * CFrame.new(0,5,0)
 end)
 
-local Button1 = SectionA:CreateButton("Black Zone", function()
+local Button1 = SectionA:CreateButton("ทีมสีดำ", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").BlackZone.CFrame * CFrame.new(0,5,0)
 end)
 
-local Button1 = SectionA:CreateButton("Purple Zone", function()
+local Button1 = SectionA:CreateButton("ทีมสีม่วง", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").MagentaZone.CFrame * CFrame.new(0,5,0)
 end)
 
-local Button1 = SectionA:CreateButton("Yellow Zone", function()
+local Button1 = SectionA:CreateButton("ทีมสีเหลือง", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["New YellerZone"].CFrame * CFrame.new(0,5,0)
 end)
 
-local Button1 = SectionA:CreateButton("Green Zone", function()
+local Button1 = SectionA:CreateButton("ทีมสีเขียว", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").CamoZone.CFrame * CFrame.new(0,5,0)
 end)
 
-local Button1 = SectionA:CreateButton("White Zone", function()
+local Button1 = SectionA:CreateButton("ทีมสีขาว", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").WhiteZone.CFrame * CFrame.new(0,5,0)
 end)
 
@@ -211,13 +182,13 @@ setfpscap(getgenv().Fps)
 end)
 end)
 end
-local TextBox1 = Section2:CreateTextBox("WalkSpeed", "Only numbers", true, function(Value)
+local TextBox1 = Section2:CreateTextBox("วิ่งเร็ว", "Only numbers", true, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 end)
-local TextBox1 = Section2:CreateTextBox("JumpPower", "Only numbers", true, function(Value)
+local TextBox1 = Section2:CreateTextBox("พลังการกระโดด", "Only numbers", true, function(Value)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 end)
-local Toggle1 = Section2:CreateToggle("Infinite Jump", nil, function(State)
+local Toggle1 = Section2:CreateToggle("กระโดดไม่จำกัด", nil, function(State)
 Infinite = State
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if Infinite then
